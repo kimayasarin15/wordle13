@@ -37,28 +37,22 @@ header {
   width: 100%;
   max-width: 500px;
   text-align: center;
-  border-bottom: 1px solid var(--tile-border);
-  padding-bottom: 10px;
-  margin-bottom: 8px;
+  margin-bottom: 0;
 }
 
 h1 {
-  margin: 4px 0;
+  margin: 4px 0 0;
   font-size: 1.8rem;
-  letter-spacing: 0.15em;
   font-weight: 700;
 }
 
-h1 .dot {
-  color: var(--accent);
-}
 
 .message {
   min-height: 1.6em;
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
-  margin: 6px 0 10px;
+  margin: 2px 0 4px;
   transition: opacity 0.2s ease;
 }
 
@@ -66,9 +60,8 @@ h1 .dot {
 .message.lose { color: #e06666; }
 
 main {
-  flex: 1;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 100%;
 }
@@ -79,7 +72,7 @@ main {
   gap: 6px;
   width: min(320px, 90vw);
   aspect-ratio: 5 / 6;
-  margin: 10px 0;
+  margin: 4px 0;
 }
 
 .row {
